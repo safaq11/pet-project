@@ -1,0 +1,174 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Pals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    .header {
+      background: url('https://images.unsplash.com/photo-1558788353-f76d92427f16') no-repeat center center/cover;
+      height: 250px;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .section:nth-child(even) {
+      background-color: #fff;
+    }
+
+    .section img {
+      max-width: 45%;
+      border-radius: 8px;
+    }
+
+    .text {
+      flex: 1;
+      max-width: 50%;
+    }
+
+    .text h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .text p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: #f77e53;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .products, .learn {
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .products h2, .learn h2 {
+      font-size: 22px;
+    }
+
+    .footer {
+      background: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #ddd;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer nav a {
+      margin-left: 15px;
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+
+      .section img, .text {
+        max-width: 100%;
+      }
+
+      .footer {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .footer nav a {
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Welcome to Pet Pals</h1>
+    <p>Because your pets deserve the best!</p>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <h2>About Us</h2>
+      <p>We are dedicated to caring for your furry companions like family. Whether it's grooming, walking, or cuddles—we’ve got it covered.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+    <img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb" alt="Pets">
+  </div>
+
+  <div class="section">
+    <img src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg" alt="Pet Services">
+    <div class="text">
+      <h2>Our Services</h2>
+      <p>From veterinary services to pet grooming and training, we provide everything your pet needs under one roof.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text">
+      <h2>Our Products</h2>
+      <p>Discover high-quality food, toys, and accessories specially curated for your beloved pets.</p>
+    </div>
+    <img src="https://images.pexels.com/photos/3981763/pexels-photo-3981763.jpeg" alt="Pet Products">
+  </div>
+
+  <div class="products">
+    <h2>Learn More</h2>
+    <p>Join our pet community for expert advice, events, and more!</p>
+  </div>
+
+  <div class="footer">
+    <div>Learn More</div>
+    <nav>
+      <a href="frtpg.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </div>
+
+</body>
+</html>

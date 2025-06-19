@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .gallery-container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto 60px auto;
+    }
+
+    .gallery-item {
+      display: inline-block;
+      width: 48%;
+      margin: 1%;
+      box-sizing: border-box;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid #ccc;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .gallery-item {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+  <div class="header">Gallery</div>
+
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg" alt="Cat">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg" alt="Dog">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Puppy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/422220/pexels-photo-422220.jpeg" alt="Parrot">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/1427447/pexels-photo-1427447.jpeg" alt="Kitten">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg" alt="Bunny">
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="products.html">Products</a>
+  </div>
+
+</body>
+</html>
